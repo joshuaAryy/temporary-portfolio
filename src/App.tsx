@@ -12,7 +12,6 @@ function WorkLink({ href, image, children }: { href: string; image?: string; chi
 
 export default function App() {
   return <main className="page">
-    <Visuals />
     <h1>Joshua Aryeetey</h1>
     <p className="intro">
       I’m studying Computer Engineering (Software Specialization) at Toronto Metropolitan University,
@@ -32,5 +31,6 @@ export default function App() {
       <li><a href="https://x.com/Cartizionplane">X</a></li>
       <li><a href="mailto:joshuaaryy@gmail.com">Email</a></li>
     </ul>
+    <Visuals />
   </main>;
 }

@@ -29,12 +29,12 @@ body { margin: 0; min-width: 280px; }
 .page {
   width: min(100% - 64px, 640px);
   margin: 0 auto;
-  padding: clamp(64px, 13vh, 136px) 0 72px;
+  padding: clamp(56px, 8vh, 88px) 0 72px;
 }
 .signature {
   width: 156px;
   height: 174px;
-  margin: 0 0 32px -13px;
+  margin: clamp(52px, 8vh, 82px) 0 0 -13px;
   position: relative;
   pointer-events: none;
   user-select: none;
@@ -124,8 +124,8 @@ a:focus-visible { outline: 2px solid #eee; outline-offset: 5px; border-radius: 2
 .click-ring { width: 32px; height: 32px; border: 1px solid #b9b9b9; border-radius: 50%; }
 
 @media (max-width: 600px) {
-  .page { width: calc(100% - 48px); padding-top: 55px; padding-bottom: 48px; }
-  .signature { width: 128px; height: 144px; margin-left: -11px; margin-bottom: 27px; }
+  .page { width: calc(100% - 48px); padding-top: 48px; padding-bottom: 48px; }
+  .signature { width: 128px; height: 144px; margin: 36px 0 0 -11px; }
   h1 { font-size: 28px; margin-bottom: 19px; letter-spacing: -.9px; }
   .intro { font-size: 17px; line-height: 1.85; }
   .socials { gap: 3px 25px; margin-top: 25px; }
